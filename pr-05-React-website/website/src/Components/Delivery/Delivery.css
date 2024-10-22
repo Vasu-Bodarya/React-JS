@@ -1,0 +1,40 @@
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.cr-provide .cr-icon {
+ padding: 24px;
+ background-color: #f7f7f8;
+ border-radius: 5px;
+ border: 1px solid #e9e9e9;
+ flex-direction: column;
+ margin: 10px;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ margin-bottom: 15px;
+}
+
+.cr-provide .cr-icon span {
+ font-size: 40px;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ margin-bottom: 15px;
+ color: #64B496;
+}
+
+
+.ball {
+ width: 80px;
+ height: 80px;
+
+ left: 200px;
+ z-index: 0;
+ transform: translateX(250%);
+}
+
+

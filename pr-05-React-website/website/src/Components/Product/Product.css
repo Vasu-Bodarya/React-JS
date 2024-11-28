@@ -1,0 +1,14 @@
+.pd {
+    position: relative;
+}
+
+.pd-body {
+    position: absolute;
+    right: 0%;
+    top: 20%;
+}
+
+.sp {
+    color: #000;
+    font-weight: 500;
+}

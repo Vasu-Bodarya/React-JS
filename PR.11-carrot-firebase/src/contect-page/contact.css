@@ -1,0 +1,67 @@
+/* General Page Styling */
+.contact-page {
+  background-color: #f4f9f9; /* Light cyan background */
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  color: #343a40; /* Dark gray text for good contrast */
+}
+
+/* Typography */
+h1 {
+  color: #05668d; /* Deep teal */
+  font-weight: 700;
+}
+
+p {
+  color: #6c757d; /* Muted gray text */
+}
+
+/* Form Inputs */
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  background-color: #ffffff; /* White for form fields */
+  transition: box-shadow 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.4);
+  border-color: #028090; /* Bright teal border on focus */
+  outline: none;
+}
+
+/* Submit Button */
+.contact-form button {
+  background-color: #028090; /* Bright teal */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+  background-color: #05668d; /* Deep teal on hover */
+  color: #f4f9f9; /* Light cyan text on hover */
+}
+
+/* Form Layout */
+.contact-form .form-group label {
+  font-weight: bold;
+  color: #05668d; /* Deep teal */
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+  .contact-page {
+    padding: 20px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+}

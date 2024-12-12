@@ -1,0 +1,188 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f8ff;
+  color: #333;
+}
+
+.full-page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%; /* Full width */
+}
+
+.app-header {
+  background: #007bff;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 100%;
+  text-align: center; /* Center text in the header */
+}
+
+.content {
+  flex: 1;
+  padding: 2rem;
+  width: 100%; /* Full width */
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center child elements horizontally */
+}
+
+h1 {
+  text-align: center; /* Center text in the heading */
+}
+
+.form {
+  display: flex;
+  justify-content: center; /* Center form horizontally */
+  margin-bottom: 1.5rem;
+  width: 100%; /* Full width */
+}
+
+.input-field {
+  flex: 1;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-width: 400px; /* Optional, limit input field size */
+}
+
+.add-button {
+  padding: 0.5rem 1rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background: #0056b3;
+}
+
+.user-table {
+  width: 100%; /* Full width */
+  max-width: 800px; /* Optional, limit table size */
+  border-collapse: collapse;
+  margin-top: 1rem;
+  text-align: center; /* Center text in table cells */
+}
+
+.user-table th,
+.user-table td {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  text-align: center; /* Center text */
+}
+
+.user-table th {
+  background: #007bff;
+  color: white;
+}
+
+button {
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.toggle-button {
+  background: #1b9b02;
+  color: black;
+}
+
+.toggle-button:hover {
+  background: #1b9b02;
+}
+
+.edit-button {
+  background: #007bff;
+  color: white;
+}
+
+.edit-button:hover {
+  background: #0056b3;
+}
+
+.delete-button {
+  background: #ff4d4d;
+  color: white;
+}
+
+.delete-button:hover {
+  background: #cc0000;
+}
+
+.footer {
+  margin-top: auto; /* Push footer to the bottom */
+  background: #f8f9fa;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Space between logout and to-do list */
+  align-items: center;
+}
+
+.logout-button {
+  background: #dc3545;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background: #c82333;
+}
